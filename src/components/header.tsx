@@ -26,13 +26,14 @@ export default function Header() {
     return (
         <header className="flex justify-between items-center py-4 px-7 border-b">
             <Link href="/">
-                <Image 
-                    src={logo} 
-                    alt="logo" 
-                    className="w-[50px] h-[50px]"
-                    width={70} 
-                    height={70} 
-                />
+            <Image 
+                src={logo} 
+                alt="logo" 
+                className="w-[50px] h-[50px]"
+                width={50} 
+                height={70} 
+                style={{ width: 'auto', height: 'auto' }} // Add this line
+            />
             </Link>
             <nav>
                 <ul className="flex gap-x-5 text-[14px]">
