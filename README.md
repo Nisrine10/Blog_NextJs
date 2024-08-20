@@ -12,23 +12,23 @@ This project is a blog application built with various modern technologies. It fe
 
 ## Technologies Used
 
-### Next.js
+- ### Next.js
 
 <p align="center">
   <img src="./src/pictures/next.png" alt="Next.js" width="60%" />
 </p>
 
-**Next.js** is a powerful React framework for building server-side rendered (SSR) and statically generated web applications. It simplifies routing and server-side rendering, making it ideal for building scalable and performant applications.
+➔ **Next.js** is a powerful React framework for building server-side rendered (SSR) and statically generated web applications. It simplifies routing and server-side rendering, making it ideal for building scalable and performant applications.
 
-### TypeScript
+- ### TypeScript
 
 <p align="center">
   <img src="./src/pictures/ts.png" alt="TypeScript" width="30%" />
 </p>
 
-**TypeScript** is a statically typed superset of JavaScript that adds optional types. It helps catch errors early and improves code quality by enforcing type safety throughout the development process.
+➔ **TypeScript** is a statically typed superset of JavaScript that adds optional types. It helps catch errors early and improves code quality by enforcing type safety throughout the development process.
 
-### Prisma + SQLite
+- ### Prisma + SQLite
 
 <p align="center">
   <img src="./src/pictures/prism.png" alt="Prisma" width="20%" /> 
@@ -38,35 +38,36 @@ This project is a blog application built with various modern technologies. It fe
   <img src="./src/pictures/sql.png" alt="SQLite" width="45%" />
 </p>
 
-**Prisma** is an ORM (Object-Relational Mapping) tool that provides a type-safe query builder for database management. **SQLite** is used as the database for this project, offering a lightweight and efficient solution for data storage.
+➔ **Prisma** is an ORM (Object-Relational Mapping) tool that provides a type-safe query builder for database management.
+➔ **SQLite** is used as the database for this project, offering a lightweight and efficient solution for data storage.
 
-### Kinde for Authentication
+- ### Kinde for Authentication
 
 <p align="center">
   <img src="./src/pictures/kind.jpg" alt="Kinde" width="30%" />
 </p>
 
-**Kinde** is used for authentication and user management. It provides features for secure login, session management, and route protection, ensuring that only authorized users can create or modify posts.
+➔ **Kinde** is used for authentication and user management. It provides features for secure login, session management, and route protection, ensuring that only authorized users can create or modify posts.
 
-### React
+- ### React
 
 <p align="center">
   <img src="./src/pictures/react.png" alt="React" width="30%" />
 </p>
 
-**React** is a JavaScript library for building user interfaces. It allows for the creation of reusable components and enhances the development of interactive and dynamic web applications.
+➔ **React** is a JavaScript library for building user interfaces. It allows for the creation of reusable components and enhances the development of interactive and dynamic web applications.
 
-### React-Katex
+- ### React-Katex
 
 **React-Katex** is a library for rendering LaTeX mathematical expressions within React components. It is used to display complex mathematical formulas clearly and accurately.
 
-### Tailwind CSS
+- ### Tailwind CSS
 
 <p align="center">
   <img src="./src/pictures/tailwind.png" alt="Tailwind CSS" width="30%" />
 </p>
 
-**Tailwind CSS** is a utility-first CSS framework that provides low-level utility classes for creating custom designs. It facilitates rapid and responsive styling, making it easier to develop aesthetically pleasing UIs.
+➔ **Tailwind CSS** is a utility-first CSS framework that provides low-level utility classes for creating custom designs. It facilitates rapid and responsive styling, making it easier to develop aesthetically pleasing UIs.
 
 ## Features
 
