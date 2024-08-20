@@ -5,11 +5,11 @@ import { BlockMath, InlineMath } from 'react-katex';
 export default function Home() {
   return (
     <main className="text-center pt-0 px-5">
-      <h1 className="pt-32 px-5 text-4xl md:text-5xl font-bold mb-5 text-blue-600">Welcome to Nisrine's Blog</h1>
+      <h1 className="pt-32 px-5 text-4xl md:text-5xl font-bold mb-5 text-blue-600">Welcome to Nisrine&apos;s Blog</h1>
 
       <article className="max-w-[800px] mx-auto text-left leading-8">
         <Image 
-          src={image} // replace with your image path
+          src={image} 
           alt="Neural Networks"
           width={800}
           height={400}
@@ -19,16 +19,16 @@ export default function Home() {
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Understanding Neural Networks: The Backbone of Modern AI</h2>
 
         <h3 className="text-xl font-semibold text-purple-600 mb-3">Introduction</h3>
-        <p>In recent years, neural networks have become the cornerstone of modern artificial intelligence (AI) and machine learning (ML). From powering sophisticated image recognition systems to enabling natural language processing, neural networks have revolutionized the way we interact with technology. In this blog post, we’ll delve into what neural networks are, how they work, and their applications in various fields.</p>
+        <p>In recent years, neural networks have become the cornerstone of modern artificial intelligence (AI) and machine learning (ML). From powering sophisticated image recognition systems to enabling natural language processing, neural networks have revolutionized the way we interact with technology. In this blog post, we&apos;ll delve into what neural networks are, how they work, and their applications in various fields.</p>
 
         <h3 className="text-xl font-semibold text-purple-600 mb-3 mt-5">What is a Neural Network?</h3>
-        <p>A neural network is a computational model inspired by the way biological neural networks in the human brain process information. It consists of interconnected nodes, or "neurons," which work together to recognize patterns and make decisions. Neural networks are designed to learn from data by adjusting the connections between neurons, known as "weights."</p>
+        <p>A neural network is a computational model inspired by the way biological neural networks in the human brain process information. It consists of interconnected nodes, or &quot;neurons,&quot; which work together to recognize patterns and make decisions. Neural networks are designed to learn from data by adjusting the connections between neurons, known as &quot;weights.&quot;</p>
 
         <h3 className="text-xl font-semibold text-purple-600 mb-3 mt-5">Structure of a Neural Network</h3>
         <p>A typical neural network consists of three types of layers:</p>
         <ul className="list-disc ml-5">
           <li><strong>Input Layer:</strong> This layer receives the raw data directly. Each neuron in this layer represents a feature or attribute of the data.</li>
-          <li><strong>Hidden Layers:</strong> These layers are located between the input and output layers. They perform complex transformations on the input data through a series of mathematical operations. A neural network can have one or more hidden layers, and the term "deep learning" refers to networks with multiple hidden layers.</li>
+          <li><strong>Hidden Layers:</strong> These layers are located between the input and output layers. They perform complex transformations on the input data through a series of mathematical operations. A neural network can have one or more hidden layers, and the term &quot;deep learning&quot; refers to networks with multiple hidden layers.</li>
           <li><strong>Output Layer:</strong> This layer produces the final output of the network, such as a classification label or a numerical value.</li>
         </ul>
 
@@ -36,10 +36,9 @@ export default function Home() {
         <p>Neural networks learn through a process called training, which involves the following steps:</p>
         <ol className="list-decimal ml-5">
           <li><strong>Forward Propagation:</strong> The input data is passed through the network, layer by layer. Each neuron performs a weighted sum of its inputs, applies an activation function, and passes the result to the next layer.</li>
-          <li><strong>Loss Calculation:</strong> The network’s output is compared to the true labels or values using a loss function, which measures the error or difference between the predicted and actual outcomes. For example, in binary classification, the loss function might be the binary cross-entropy loss:</li>
+          <li><strong>Loss Calculation:</strong> The network&apos;s output is compared to the true labels or values using a loss function, which measures the error or difference between the predicted and actual outcomes. For example, in binary classification, the loss function might be the binary cross-entropy loss:</li>
         </ol>
         
-        {/* Render mathematical expressions clearly */}
         <div className="mb-4 text-lg">
           <p className="font-bold">Binary Cross-Entropy Loss:</p>
           <BlockMath math={String.raw`L = - \left( y \log(\hat{y}) + (1 - y) \log(1 - \hat{y}) \right)`} />
@@ -50,7 +49,6 @@ export default function Home() {
           <li><strong>Backpropagation:</strong> The network adjusts the weights of the connections between neurons to minimize the loss. This is done by calculating the gradient of the loss function with respect to each weight and updating the weights in the opposite direction of the gradient. The weight update rule is given by:</li>
         </ol>
 
-        {/* Render mathematical expressions clearly */}
         <div className="mb-4 text-lg">
           <p className="font-bold">Weight Update Rule:</p>
           <BlockMath math={String.raw`\Delta w_i = -\eta \frac{\partial L}{\partial w_i}`} />
