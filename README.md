@@ -101,16 +101,20 @@ This project is a blog application built with various modern technologies. It fe
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, follow these simple steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1. **Run the Development Server**
+
+   Open your terminal and execute one of the following commands to start the development server:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
