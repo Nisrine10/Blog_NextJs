@@ -17,6 +17,7 @@ This project is a blog application built with various modern technologies. It fe
 <p align="center">
   <img src="./src/pictures/next.png" alt="Next.js" width="60%" />
 </p>
+
 **Next.js** is a powerful React framework for building server-side rendered (SSR) and statically generated web applications. It simplifies routing and server-side rendering, making it ideal for building scalable and performant applications.
 
 ### TypeScript
@@ -24,6 +25,7 @@ This project is a blog application built with various modern technologies. It fe
 <p align="center">
   <img src="./src/pictures/ts.png" alt="TypeScript" width="30%" />
 </p>
+
 **TypeScript** is a statically typed superset of JavaScript that adds optional types. It helps catch errors early and improves code quality by enforcing type safety throughout the development process.
 
 ### Prisma + SQLite
@@ -43,6 +45,7 @@ This project is a blog application built with various modern technologies. It fe
 <p align="center">
   <img src="./src/pictures/kind.jpg" alt="Kinde" width="30%" />
 </p>
+
 **Kinde** is used for authentication and user management. It provides features for secure login, session management, and route protection, ensuring that only authorized users can create or modify posts.
 
 ### React
@@ -50,6 +53,7 @@ This project is a blog application built with various modern technologies. It fe
 <p align="center">
   <img src="./src/pictures/react.png" alt="React" width="30%" />
 </p>
+
 **React** is a JavaScript library for building user interfaces. It allows for the creation of reusable components and enhances the development of interactive and dynamic web applications.
 
 ### React-Katex
@@ -61,6 +65,7 @@ This project is a blog application built with various modern technologies. It fe
 <p align="center">
   <img src="./src/pictures/tailwind.png" alt="Tailwind CSS" width="30%" />
 </p>
+
 **Tailwind CSS** is a utility-first CSS framework that provides low-level utility classes for creating custom designs. It facilitates rapid and responsive styling, making it easier to develop aesthetically pleasing UIs.
 
 ## Features
